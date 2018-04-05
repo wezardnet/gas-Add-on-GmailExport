@@ -1,0 +1,27 @@
+{
+	"oauthScopes": [
+		"https://www.googleapis.com/auth/gmail.addons.execute", 
+		"https://www.googleapis.com/auth/gmail.readonly", 
+		"https://www.googleapis.com/auth/gmail.labels", 
+		"https://www.googleapis.com/auth/gmail.modify", 
+		"https://mail.google.com/", 
+		"https://www.googleapis.com/auth/drive", 
+		"https://www.googleapis.com/auth/userinfo.email"
+	],
+	"gmail": {
+		"name": "Gmail Add-on Drive Export", 
+		"logoUrl": "https://nworks-resources.storage.googleapis.com/images/ic_get_app_black_24dp_1x.png", 
+		"contextualTriggers": [
+			{
+				"unconditional": {}, 
+				"onTriggerFunction": "buildAddOn"
+			}
+		], 
+		"openLinkUrlPrefixes": [
+			"https://mail.google.com/"
+		],
+		"primaryColor": "#4285F4", 
+		"secondaryColor": "#4285F4", 
+		"version": "TRUSTED_TESTER_V1"
+	}
+}
