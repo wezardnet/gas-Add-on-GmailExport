@@ -96,7 +96,7 @@ function driveExport(e){
 /**
  * 指定したファイルを Google ドライブから完全削除する
  * 
- * @param {String} Google ドライブから削除するファイル ID
+ * @param {String} ファイル ID
  */
 function deleteFile(fileId){
 	var token = ScriptApp.getOAuthToken();
